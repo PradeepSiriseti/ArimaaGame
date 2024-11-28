@@ -51,8 +51,6 @@ fun ArimaaGame() {
                 modifier = Modifier.padding(16.dp)
             )
 
-
-
             Spacer(modifier = Modifier.height(16.dp))
 
             Button(
