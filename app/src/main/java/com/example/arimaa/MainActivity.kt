@@ -131,9 +131,3 @@ data class Piece(val symbol: String, val isGold: Boolean)
 // Initial game setup
 fun getInitialPieces(): Map<Pair<Int, Int>, Piece> {
     val pieces = mutableMapOf<Pair<Int, Int>, Piece>()
-
-@Preview(showBackground = true)
-@Composable
-fun ArimaaGamePreview() {
-    ArimaaGame()
-}
