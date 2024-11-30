@@ -5,9 +5,13 @@ plugins {
 }
 
 android {
+    namespace = "com.example.arimaa"
     compileSdk = 35
 
     defaultConfig {
+        applicationId = "com.example.arimaa"
+        minSdk = 30
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
